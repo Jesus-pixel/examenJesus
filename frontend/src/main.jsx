@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import App from "./App";
-import Nuevo from "./pages/Nuevo";
-import Presupuesto from "./pages/Presupuesto"
+import NuevoPresupuesto from "./pages/NuevoPresupuesto";
+import UltimoPresupuesto from "./pages/UltimoPresupuesto"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,11 +15,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/nuevo",
-    element: <Nuevo />
+    element: <NuevoPresupuesto />
   },
   {
     path: "/presupuesto/ultimo",
-    element: <Presupuesto />
+    element: <UltimoPresupuesto />
   }
 ]);
 

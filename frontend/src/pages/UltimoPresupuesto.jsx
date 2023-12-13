@@ -5,7 +5,7 @@ import TablaAhorro from '../components/TablaAhorro';
 import TotalesResumen from '../components/fragments/TotalesResumen';
 import CalcTotal from "../components/functions/CalcTotal"
 import TitleStep from '../components/TitleStep';
-export default function Presupuesto(){
+export default function UltimoPresupuesto(){
     const [presupuesto, setPresupuesto] = useState({})
     const [lasBudget, setLastBudget] = useState()
     useEffect(() =>{

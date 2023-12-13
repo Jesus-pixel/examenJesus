@@ -5,7 +5,7 @@ import Ahorro from "./Steps/Ahorro";
 import Resumen from "./Steps/Resumen";
 import SaveBudget from "../services/SaveBudget";
 
-export default function Nuevo(){
+export default function NuevoPresupuesto(){
 
     const [presupuesto, setPresupuesto] = useState({
         AñoInicio:"",
