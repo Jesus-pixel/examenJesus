@@ -26,7 +26,7 @@ export default function Años({presupuesto, setPresupuesto, errors, setErrors, s
 
     return(
       <div className="container">
-        <TitleStep text={" Defina los años para los cuales quiere generar su presupuesto"} paso={1}></TitleStep>            
+        <TitleStep text={" Ingresa los años para generar tu presupuesto familiar"}></TitleStep>            
         <div className="flex justify-center items-center flex-col mt-8">
             <Input name="AñoInicio" className={"py-2"} label={"Inicio"} value={(presupuesto && presupuesto.AñoInicio) && presupuesto.AñoInicio} type="number" additionals={{onBlur:validateYears}} handleChange={(e) => setPresupuesto({...presupuesto, [e.target.name]:e.target.value})}></Input>   
             {errors.AñoInicio && <AlertError text={errors.AñoInicio}/>}

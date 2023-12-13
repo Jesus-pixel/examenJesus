@@ -9,8 +9,8 @@ export default function App () {
         <h1 className="text-xl text-center">Aplicacion para el control del presupuesto familiar</h1>
         <div className="container">
           <div className="flex justify-around mt-7">                               
-            <a href="/nuevo" className="border border-gray-700 rounded-md px-4 py-1">Nuevo</a>
-            <a href="/presupuesto/ultimo" className=" border border-gray-700 rounded-md px-4 py-1 ">Ver último </a>
+            <a href="/nuevo-presupuesto" className="border border-gray-700 rounded-md px-4 py-1 btn-color">Nuevo</a>
+            <a href="/ultimo-presupuesto" className=" border border-gray-700 rounded-md px-4 py-1 btn-color ">Ver último </a>
           </div>
         </div>
       </div>               

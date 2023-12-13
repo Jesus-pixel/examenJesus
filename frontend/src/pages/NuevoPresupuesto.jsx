@@ -36,7 +36,7 @@ export default function NuevoPresupuesto(){
 
             <div className="container flex flex-wrap justify-center border-b-orange-50 mt-24">       
                 <div className="flex justify-start mt-6">
-                    <Button  className="mr-3" handleClick={
+                    <Button  className="mr-3 btn-color" handleClick={
                         () => {
                             if (activeStep > 1) {
                             return setActiveStep(activeStep - 1)
@@ -45,7 +45,7 @@ export default function NuevoPresupuesto(){
                         }>
                         Atras
                     </Button>
-                    <Button disabled={disabled} handleClick={() => {
+                    <Button  className="btn-color"disabled={disabled} handleClick={() => {
                             if (activeStep <  limitStep) {
                                 return setActiveStep(activeStep + 1)
                             }else{

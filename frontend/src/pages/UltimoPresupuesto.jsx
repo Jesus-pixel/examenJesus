@@ -27,7 +27,7 @@ export default function UltimoPresupuesto(){
                     <TablaAhorro disabled={true} presupuesto={presupuesto}/>            
                 </div>
             </div> 
-            <a href="/" className="border border-gray-700 rounded-md mt-9 px-4 py-1 m-auto">Volver a inicio</a> 
+            <a href="/" className="border border-gray-700 rounded-md mt-9 px-4 py-1 m-auto btn-color">Volver a inicio</a> 
         </div>
     )
 }

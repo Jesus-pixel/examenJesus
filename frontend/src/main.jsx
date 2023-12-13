@@ -14,11 +14,11 @@ const router = createBrowserRouter([
     element: <App/>,    
   },
   {
-    path: "/nuevo",
+    path: "/nuevo-presupuesto",
     element: <NuevoPresupuesto />
   },
   {
-    path: "/presupuesto/ultimo",
+    path: "/ultimo-presupuesto",
     element: <UltimoPresupuesto />
   }
 ]);
